@@ -1,6 +1,7 @@
 """
   Errors:
     - top_next_token
+    - test_generation: produces the same sentence 3x. Probably due to no gradient saves.
   Warnings:
     - test_generation: The attention mask is not set and cannot be inferred from input because pad token is same as eos token.
 """
