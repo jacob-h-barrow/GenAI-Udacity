@@ -1,3 +1,8 @@
+########################
+## Created By ChatGPT ##
+########################
+# Provided here to show how you'd use Annotated
+
 from typing import Annotated, TypeVar, Protocol
 import numpy as np
 import torch
@@ -38,4 +43,6 @@ check_tensor(valid_tensor)
 
 # Uncomment this line to see `mypy` detect a type issue:
 # check_tensor(123)  # Invalid type (should raise a mypy error)
-
+########################
+## Created By ChatGPT ##
+########################
